@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+body{
+    overflow: hidden;
+}
+span{
+    height: 10px;
+    width: 10px;
+    border: 1px solid crimson;
+    transition: .2s;
+    opacity: 0;
+    animation: .4s infinite linear;
+    border-radius: 5%;
+}
+.hover:hover{
+    animation-name:anim;
+    opacity: 1;
+    
+    border-radius: 50%;
+}
+
+@keyframes anim{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+        border-color: crimson;
+    }
+    70%{
+        opacity: 1;
+        border-color: green;
+    }
+    100%{
+        transform: scale(6);
+        opacity: 0;
+        border-color: red;
+    }
+}
