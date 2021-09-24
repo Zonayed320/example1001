@@ -1,6 +1,6 @@
 $('span').addClass('hover');
 
 $('body').bind("contextmenu",function(e){
-    alert(' Use Your Brain.. This Example Protecten by Zonayed Ahamad')
+    alert(' Uhhu..😊 This Example Protecten by Zonayed Ahamad')
     return false;
 });
